@@ -1,0 +1,49 @@
+.tareas-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tareas-input{
+    width: 335px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border:  2px solid #00471b;
+    outline: none;
+    -webkit-border-radius:  4px 0 0 4px;
+    -moz-border-radius:  4px 0 0 4px;
+    -ms-border-radius:  4px 0 0 4px;
+    -o-border-radius:  4px 0 0 4px;
+    border-radius:  4px 0 0 4px;
+}
+
+.tareas-boton{
+    padding: 16px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #00471b;
+    color: white;
+    text-transform: capitalize;
+    -webkit-border-radius: 0 4px 0 4px;
+    -moz-border-radius: 0 4px 0 4px;
+    -ms-border-radius: 0 4px 0 4px;
+    -o-border-radius: 0 4px 0 4px;
+    border-radius: 0 4px 0 4px;
+    margin: 5px;
+}
+
+@media (max-width: 240px) {
+    .tareas-input{
+        width: 200px;
+    }   
+}
+
+@media (max-width: 400px) {
+    .tareas-input{
+        width: 200px;
+    }   
+}
